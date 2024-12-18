@@ -1,0 +1,35 @@
+Challenge 1: Signal Processing - Noise Reduction
+Context: 
+You are given a noisy sine wave signal that simulates data collected from a sensor. The goal is to clean the signal using a low-pass filter.
+
+Tasks:
+Generate a noisy sine wave using NumPy (sin function + random noise).
+Use SciPy to apply a low-pass filter to the signal.
+Visualize the original noisy signal and the filtered signal using Matplotlib.
+
+Expected Output:
+Two overlaid plots: one for the noisy signal and one for the filtered signal, with proper labels and a legend.
+
+Challenge 2: Data Visualization - Mandelbrot Set
+Context: 
+The Mandelbrot Set is a famous fractal that showcases complex numbers' behavior. Visualizing it is a classic computational challenge.
+
+Tasks:
+Implement a function that calculates the number of iterations for a point in the complex plane to escape a given bound.
+Use NumPy to generate a 2D grid of points in the complex plane.
+Use Matplotlib's imshow to visualize the Mandelbrot Set.
+
+Expected Output:
+A colorful visualization of the Mandelbrot Set with a title, color bar, and axis labels.
+
+Challenge 3: Statistics - Curve Fitting
+Context: 
+You are working with experimental data that follows a quadratic trend. Your task is to fit a curve and extract the parameters of the quadratic equation.
+
+Tasks:
+Use NumPy to generate synthetic data following a quadratic trend, adding some noise to simulate measurement errors.
+Use SciPy's curve_fit function to fit the quadratic model to the noisy data.
+Plot the original data points and the fitted curve using Matplotlib.
+
+Expected Output:
+A scatter plot of noisy data points overlaid with the fitted quadratic curve, annotated with the extracted parameters (e.g., y=ax^2+bx+c).
